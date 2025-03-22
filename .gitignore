@@ -10,6 +10,7 @@
 
 # production
 /build
+temp_auto_push.bat
 
 # misc
 .DS_Store
@@ -22,3 +23,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+temp_interactive_push.bat
+.gitignore
+branch_structure.json

@@ -21,6 +21,9 @@ import ScrollToTop from "./components/ScrollToTop"
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 function App() {
   const [load, upadateLoad] = useState(true);
